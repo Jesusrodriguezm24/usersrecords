@@ -2,9 +2,9 @@ import { axiosInstance } from "../api/axiosInstance";
 
 export const createUser = async (dataUser) => {
     try {
-        const res = await axiosInstance.post("/users/", dataUser);
-        return res.data;
+        await axiosInstance.post("users/", dataUser);
+       
     } catch (error) {
-        console.error(error);
+        console.error("No create the user", error);
     }
 }

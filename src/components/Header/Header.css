@@ -1,5 +1,5 @@
 .header_container{
-    background-color: burlywood;
+
     height: 4rem;
     padding: 0 2rem;
 
@@ -8,4 +8,21 @@
     align-items: center;
 
 }
+.header_title h1{
+   
+   color: #0F0F2D;
+}
+
+.btn_create button{
+    width: 15rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #555a88;
+    color: white;
+}
+
+
 

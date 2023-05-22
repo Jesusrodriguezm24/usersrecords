@@ -1,0 +1,51 @@
+.user_form{
+    padding: 4rem 4rem 4rem;
+    position: relative;
+
+    width: 80%;
+    max-width: 42rem;
+   
+    background: #FFFFFF;
+
+}
+.user_title{
+    margin: 0;
+}
+
+.user_form_btn_close{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dv_form_container{
+    
+}
+
+.user_form_label{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   
+   margin-top: 1rem;
+}
+
+.btn_submit button{
+    width: 100%;
+    margin-top: 30px;
+
+    height: 2.5rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #555a88;
+    color: white;
+}
+
+
+
