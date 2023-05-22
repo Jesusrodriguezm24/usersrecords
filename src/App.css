@@ -1,14 +1,26 @@
-#root{
-  width: 100vw;
-  height: 100vh;
+.user_form{
+    padding: 3.2rem 3.2rem 3.8rem;
+    position: relative;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    
+   
+    background: #FFFFFF;
 
 }
+.user_title{
+    margin: 0;
+}
 
+.user_form_btn_close{
+    position: absolute;
+    top: 2.6rem;
+    right: 3.6rem;
 
-h1{
-  font-size: 60px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.user_form_label{
+   
 }

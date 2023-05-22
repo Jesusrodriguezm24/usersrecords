@@ -1,0 +1,11 @@
+.modal_container{
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.411);
+    backdrop-filter: blur(2px);
+} 
