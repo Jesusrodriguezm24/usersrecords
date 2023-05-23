@@ -1,0 +1,14 @@
+.card_container {
+    width: 38rem;
+    height: 20rem;
+
+    padding: 1.5rem;
+    border: 1px solid ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    
+
+}

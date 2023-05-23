@@ -1,0 +1,13 @@
+.list_card_container{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+
+}
+.list_card_item{
+    list-style: none;
+}
