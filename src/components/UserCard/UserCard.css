@@ -3,12 +3,60 @@
     height: 20rem;
 
     padding: 1.5rem;
-    border: 1px solid ;
+    border-radius: 10px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
     
-
+    background-color: #ADD8E6;
 }
+
+.card_container h2{
+    font-weight: 600;
+}
+.card_container h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2rem;
+
+    color: rgba(255, 255, 255, 0.883);
+}
+.gift_icon{
+    font-size: 18px;
+}
+.dv_btns_delete_edit{
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+    gap: 1.5rem;
+}
+
+.dv_btns_delete_edit button{
+    width: 3.3rem;
+    height: 3.3rem;
+
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(255, 2, 2, 0.719);
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.dv_btns_delete_edit button:hover{
+    transform: translateY(-4px);
+}
+
+.dv_btns_delete_edit button:last-child{
+    background-color: blue;
+}
+
+.btn_delete,
+.btn_edit{
+    font-size: 2rem;
+    color: white;
+}
+

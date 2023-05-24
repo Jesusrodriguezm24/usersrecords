@@ -9,6 +9,7 @@ import UsersForm from './components/UsersForm/UsersForm';
 import './App.css'
 import { editUser } from './services/editUser';
 import { deleteUser } from './services/deleteUser';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -67,6 +68,8 @@ function App() {
                   initialData={editUserData}
         />
       </Modal>
+
+      <Footer/>
 
     </section>
   )

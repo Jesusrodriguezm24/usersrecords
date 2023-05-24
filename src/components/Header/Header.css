@@ -1,27 +1,43 @@
 .header_container{
 
-    height: 4rem;
-    padding: 0 2rem;
+    height: 10rem;
+    padding: 0 3rem;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    margin-bottom: 3rem;
+
 }
 .header_title h1{
    
-   color: #0F0F2D;
+   color: #21216be6;
+   font-size: 3.5rem;
+   font-weight: bold;
+
+   
 }
 
 .btn_create button{
     width: 15rem;
-    height: 3rem;
+    height: 5rem;
 
+    font-size: 1.5rem;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
 
     background-color: #555a88;
     color: white;
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn_create button:hover{
+   
+    transform: translateY(-2px);
 }
 
 
