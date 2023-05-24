@@ -1,9 +1,6 @@
 import UserCard from "../UserCard/UserCard";
 
 import './UsersList.css';
-
-
-
 const UsersList = ( { users, onEditUser, deleteUser } ) => {
   
     if (!users.length) return <p>No registered users</p>

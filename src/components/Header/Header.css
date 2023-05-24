@@ -1,5 +1,4 @@
 .header_container{
-
     height: 10rem;
     padding: 0 3rem;
 
@@ -8,20 +7,21 @@
     align-items: center;
 
     margin-bottom: 3rem;
-
 }
 .header_title h1{
-   
    color: #21216be6;
    font-size: 3.5rem;
    font-weight: bold;
 
-   
 }
-
 .btn_create button{
     width: 15rem;
     height: 5rem;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
 
     font-size: 1.5rem;
     font-weight: bold;
@@ -36,8 +36,47 @@
 }
 
 .btn_create button:hover{
-   
     transform: translateY(-2px);
+}
+
+@media screen and (max-width: 490px) and (min-width: 400px) {
+    .btn_create button{
+
+        width: 6rem;
+        height: 5rem;
+    }
+
+    .btn_create button p{
+        display: none;
+    }
+   
+    
+}
+
+@media screen and (max-width: 399px) and (min-width: 320px) {
+    .header_container{
+        height: 10rem;
+        padding: 0 3rem;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+    
+
+        margin: 3rem 0;
+    }
+    
+    .btn_create button{
+
+        width: 15rem;
+        height: 5rem;
+    }
+
+   
+   
+    
 }
 
 

@@ -12,7 +12,7 @@ import { editUser } from './services/editUser';
 import { deleteUser } from './services/deleteUser';
 import Footer from './components/Footer/Footer';
 
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css'
@@ -76,11 +76,8 @@ function App() {
                   initialData={editUserData}
         />
       </Modal>
- 
-      <Footer/>
- 
-      
 
+      <Footer/>
     </section>
   )
 }

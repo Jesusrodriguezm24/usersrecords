@@ -8,7 +8,8 @@ const Header = ({createUser}) => {
         </div>
         <div className='btn_create'>
             <button onClick={() => createUser()}>
-            <i className="fa-solid fa-plus"></i> Create new User</button>
+            <i className="fa-solid fa-plus"></i><p>Create new User</p>
+            </button>
         </div>
     </header>
   )

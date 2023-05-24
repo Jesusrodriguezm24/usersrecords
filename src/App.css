@@ -1,3 +1,10 @@
+:root{
+    min-width: 320px;
+}
+#root{
+    min-width: 320px;
+}
 .app_container{
     height: 100vh;
+    min-width: 320px;
 }
