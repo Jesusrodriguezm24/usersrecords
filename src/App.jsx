@@ -1,3 +1,4 @@
+
 import { createUser } from './services/createUser';
 import Header from './components/Header/Header'
 import { useEffect, useState } from 'react';
@@ -6,10 +7,16 @@ import UsersList from './components/UsersList/UsersList';
 
 import Modal from './components/Modal/Modal';
 import UsersForm from './components/UsersForm/UsersForm';
-import './App.css'
+
 import { editUser } from './services/editUser';
 import { deleteUser } from './services/deleteUser';
 import Footer from './components/Footer/Footer';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import './App.css'
+
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -26,7 +33,7 @@ function App() {
   }
 
   const handleSend = async (data) => {
-    if (data.id) await editUser(data.id, data)
+    if (data.id) await editUser(data.id, data);
     else await createUser(data);
 
     await loadUsers();
@@ -57,6 +64,7 @@ function App() {
   return (
 
     <section className='app_container'>
+      <ToastContainer />
 
       <Header createUser={handleCreateUser}/>
 
@@ -68,8 +76,10 @@ function App() {
                   initialData={editUserData}
         />
       </Modal>
-
+ 
       <Footer/>
+ 
+      
 
     </section>
   )

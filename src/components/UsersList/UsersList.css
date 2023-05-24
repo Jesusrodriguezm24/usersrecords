@@ -1,6 +1,15 @@
-.list_card_container{
+
+.list_container{
     display: flex;
     flex-wrap: wrap;
+}
+.list_card_container{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 50px;
 
     justify-content: center;
     align-items: center;
@@ -10,4 +19,5 @@
 }
 .list_card_item{
     list-style: none;
+    
 }

@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
 
-    background-color:rgba(0, 0, 0, 0.478) ;
+    background-color:rgba(0, 0, 0, 0.53) ;
   }
   .createBy{
     display: flex;
@@ -23,5 +23,5 @@
     align-items: center;
     font-size: 12px;
   
-    color: #f30a0a;
+    color: white;
   }

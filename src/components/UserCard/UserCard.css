@@ -40,7 +40,7 @@
 
     border-radius: 5px;
     border-style: none;
-    background-color: rgba(255, 2, 2, 0.719);
+    background-color: rgba(246, 38, 38, 0.719);
     cursor: pointer;
 
     transition: 0.3s;
@@ -51,7 +51,7 @@
 }
 
 .dv_btns_delete_edit button:last-child{
-    background-color: blue;
+    background-color: rgba(37, 37, 248, 0.79);
 }
 
 .btn_delete,
