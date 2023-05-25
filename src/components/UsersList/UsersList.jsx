@@ -11,11 +11,11 @@ const UsersList = ( { users, onEditUser, deleteUser } ) => {
                  <LoadingUsers/>
             </section>
        )
-
     }
 
     return (
         <section className="list_container">
+            <p className="users_counter">Registered Users: {users.length}</p>
             <ul className="list_card_container">
                 {users.map((user) => <li key={user.id} className="list_card_item">
                         <UserCard userData={user} onEditUser={onEditUser} deleteUser={deleteUser}/>
