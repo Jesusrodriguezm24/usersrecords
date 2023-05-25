@@ -1,9 +1,18 @@
+import LoadingUsers from "../LoadingUsers/LoadingUsers";
 import UserCard from "../UserCard/UserCard";
 
 import './UsersList.css';
 const UsersList = ( { users, onEditUser, deleteUser } ) => {
   
-    if (!users.length) return <p>No registered users</p>
+    if (!users.length) {
+        return (
+            <section className="loading_users">
+                 <p className="cls_null_users">No registered users</p>
+                 <LoadingUsers/>
+            </section>
+       )
+
+    }
 
     return (
         <section className="list_container">
