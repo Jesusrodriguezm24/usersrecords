@@ -1,0 +1,55 @@
+.delete_user_confirm_container{
+    padding: 2rem 4rem 4rem;
+    position: relative;
+
+    width: 80%;
+    max-width: 42rem;
+   
+    background: #FFFFFF;
+
+    z-index: 10;
+}
+.delete_user_confirm_title{
+    text-align: center;
+    font-size: 3rem;
+
+    color: #151573;
+    margin: 2rem 0;
+}
+.delete_user_confirm_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.delete_user_confirm_text em{
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+.cls_btn_controls{
+    width: 30%;
+    margin-top: 30px;
+
+    height: 3rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #555a88;
+    color: white;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.cls_btn_controls:hover{
+    transform: translateY(-3px);
+}
+.cls_btn_controls_delete{
+    background-color: rgba(254, 0, 0, 0.791);
+}
+.btn_delete_user_confirm_controls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

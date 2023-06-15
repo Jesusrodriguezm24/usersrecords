@@ -12,7 +12,7 @@ const UserCard = ({ userData, deleteUser, onEditUser }) => {
         <p><i className="fa-solid fa-gifts gift_icon"></i> {userData.birthday}</p>
 
         <div className='dv_btns_delete_edit'>
-            <button onClick={()=>deleteUser(userData.id)}>
+            <button onClick={()=>deleteUser(userData.id, `${userData.first_name} ${userData.last_name}`)}>
               <i className="fa-solid fa-trash-can btn_delete"></i>
             </button>
             <button onClick={()=>onEditUser(userData)}>

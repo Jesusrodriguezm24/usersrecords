@@ -9,11 +9,12 @@ const UsersForm = ({ onCloseModal, onSubmit, initialData }) => {
   const {register, handleSubmit, formState: { errors } } = useForm({defaultValues:initialData});
 
   const editOrCreate = (data) => {
-
-
-
-    if (initialData) onSubmit({id: initialData.id, ...data});
+    if (initialData) {
+      onSubmit({id: initialData.id, ...data});
+    } 
     else onSubmit(data);
+
+    
   }
 
   const validatedata = (value) => {
@@ -74,7 +75,7 @@ const UsersForm = ({ onCloseModal, onSubmit, initialData }) => {
 
           </div>
 
-      </form>
+        </form>
       
     
     </>
